@@ -20,14 +20,40 @@ symbol, BigInt
 Reference(non primitive)
 Array, Objects, Functions
 */
-const heros = ["Shaktiman", "nagraj", "doga"];
-let myobj = {
-    name: "hitesh",
-    age: 22,
+// const heros = ["Shaktiman", "nagraj", "doga"];
+// let myobj = {
+//     name: "hitesh",
+//     age: 22,
+// }
+
+// const myFunction = function(){
+//      console.log("Hello World");
+// }
+
+// console.log(typeof myFunction);
+
+
+// ***************************************
+
+// stack (primitive), Heap (non-primitive)
+
+let myYouTube = "Sumit@dot";
+
+let anotherName = myYouTube;
+anotherName = "Priya@dot";
+
+console.log(myYouTube);
+console.log(anotherName);
+
+let user = {
+    email: "user@google.com";
+    upi: "user@ybl";
 }
 
-const myFunction = function(){
-     console.log("Hello World");
-}
+let userTwo = user;
 
-console.log(typeof myFunction);
+userTwo.email = "Sumit@google.com";
+
+ console.log(user.email);
+ console.log(userTwo.email);
+
