@@ -1,0 +1,13 @@
+global executon context
+{} ->GEC
+->Function execution context
+->Eval execution context
+
+{} -> Memory creation phase
+-> execution phase
+
+-> global Execution 
+-> Memory phase
+-> execution phase delete
+-> execution context
+-> repetation
